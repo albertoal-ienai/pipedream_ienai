@@ -2,9 +2,9 @@ import constants from "../../common/constants.mjs";
 import app from "../../holded.app.mjs";
 
 export default {
-  key: "holded-update-invoice",
-  name: "Update Invoice",
-  description: "Modify an existing invoice in Holded. [See the docs](https://developers.holded.com/reference/update-document-1).",
+  key: "holded-list-payments",
+  name: "List Payments",
+  description: "Get all your payments. [See the docs](https://developers.holded.com/reference/list-payments-1).",
   type: "action",
   version: "0.0.1",
   props: {
